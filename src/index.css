@@ -76,6 +76,47 @@ button {
   width: 100%;
 }
 
+@media (max-width: 768px) {
+  .container {
+    padding: 0 16px;
+  }
+  
+  .section-subtitle {
+    font-size: 1rem;
+  }
+  
+  .btn {
+    padding: 14px 28px;
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding: 0 12px;
+  }
+  
+  .section-badge {
+    font-size: 0.8rem;
+    padding: 6px 14px;
+  }
+  
+  .section-subtitle {
+    font-size: 0.95rem;
+    margin-bottom: 2rem;
+  }
+  
+  .btn {
+    padding: 12px 24px;
+    font-size: 0.9rem;
+    border-radius: 10px;
+  }
+  
+  .glass-card:hover {
+    transform: translateY(-4px);
+  }
+}
+
 .section-badge {
   display: inline-flex;
   align-items: center;

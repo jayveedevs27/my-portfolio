@@ -52,7 +52,7 @@ const About = () => {
             <div className="image-wrapper">
               <div className="image-border" />
               <img 
-                src="https://jayveedevs27.github.io/portfolio/assets/profile.jpg" 
+                src={`${import.meta.env.BASE_URL}images/profile.png`}
                 alt="Jayvee - Full Stack Developer"
                 className="about-profile-image"
                 onError={(e) => {

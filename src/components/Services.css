@@ -158,4 +158,38 @@
   .service-card {
     padding: 30px 24px;
   }
+  
+  .service-icon {
+    width: 60px;
+    height: 60px;
+  }
+  
+  .service-title {
+    font-size: 1.2rem;
+  }
+  
+  .service-description {
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .services {
+    padding: 60px 0;
+  }
+  
+  .services-header {
+    margin-bottom: 40px;
+  }
+  
+  .service-card {
+    padding: 24px 20px;
+    border-radius: 16px;
+  }
+  
+  .service-icon {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 16px;
+  }
 }
