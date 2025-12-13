@@ -14,7 +14,7 @@ const Icons = {
 
 const About = () => {
   const stats = [
-    { number: '3+', label: 'Years of Experience' },
+    { number: '7+', label: 'Years of Experience' },
     { number: '50+', label: 'Projects Completed' },
     { number: '30+', label: 'Happy Clients' },
     { number: '100%', label: 'Client Satisfaction' }
@@ -90,7 +90,7 @@ const About = () => {
                 </div>
               </div>
               <div className="experience-badge">
-                <span className="exp-number">3+</span>
+                <span className="exp-number">7+</span>
                 <span className="exp-text">Years<br/>Experience</span>
               </div>
             </div>

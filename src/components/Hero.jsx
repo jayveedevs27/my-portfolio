@@ -221,7 +221,7 @@ const Hero = () => {
               transition={{ duration: 0.6, delay: 1.3 }}
             >
               <div className="stat-item">
-                <span className="stat-number">3+</span>
+                <span className="stat-number">7+</span>
                 <span className="stat-label">Years Experience</span>
               </div>
               <div className="stat-divider" />
