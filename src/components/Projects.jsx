@@ -24,7 +24,7 @@ const Projects = () => {
       description: 'A full-stack e-commerce solution with payment integration, admin dashboard, and real-time inventory management.',
       technologies: ['React', 'Node.js', 'MongoDB', 'Stripe'],
       category: 'fullstack',
-      image: '/images/featured-projects/project-1.png',
+      image: `${import.meta.env.BASE_URL}images/featured-projects/project-1.png`,
       link: '#',
       github: '#'
     },
@@ -33,7 +33,7 @@ const Projects = () => {
       description: 'Collaborative task management tool with real-time updates, team workspaces, and productivity analytics.',
       technologies: ['React', 'Firebase', 'Material-UI'],
       category: 'frontend',
-      image: '/images/featured-projects/project-2.png',
+      image: `${import.meta.env.BASE_URL}images/featured-projects/project-2.png`,
       link: '#',
       github: '#'
     },
@@ -42,7 +42,7 @@ const Projects = () => {
       description: 'Analytics dashboard for managing multiple social media accounts with insights and scheduling features.',
       technologies: ['Next.js', 'PostgreSQL', 'Chart.js'],
       category: 'fullstack',
-      image: '/images/featured-projects/project-3.png',
+      image: `${import.meta.env.BASE_URL}images/featured-projects/project-3.png`,
       link: '#',
       github: '#'
     },
@@ -51,7 +51,7 @@ const Projects = () => {
       description: 'Drag-and-drop website builder for creating professional portfolios with custom themes.',
       technologies: ['React', 'Express', 'MongoDB'],
       category: 'fullstack',
-      image: '/images/featured-projects/project-5.png',
+      image: `${import.meta.env.BASE_URL}images/featured-projects/project-5.png`,
       link: '#',
       github: '#'
     },
@@ -60,7 +60,7 @@ const Projects = () => {
       description: 'Scalable RESTful API with authentication, rate limiting, and comprehensive documentation.',
       technologies: ['Node.js', 'Express', 'PostgreSQL'],
       category: 'backend',
-      image: '/images/featured-projects/project-6.png',
+      image: `${import.meta.env.BASE_URL}images/featured-projects/project-6.png`,
       link: '#',
       github: '#'
     },
@@ -69,7 +69,7 @@ const Projects = () => {
       description: 'Feature-rich chat application with real-time messaging, file sharing, and video calls.',
       technologies: ['React', 'Socket.io', 'WebRTC'],
       category: 'fullstack',
-      image: '/images/featured-projects/project-7.png',
+      image: `${import.meta.env.BASE_URL}images/featured-projects/project-7.png`,
       link: '#',
       github: '#'
     },
@@ -78,7 +78,7 @@ const Projects = () => {
       description: 'Intelligent analytics platform with machine learning insights and predictive data visualization.',
       technologies: ['Python', 'TensorFlow', 'React'],
       category: 'fullstack',
-      image: '/images/featured-projects/project-8.png',
+      image: `${import.meta.env.BASE_URL}images/featured-projects/project-8.png`,
       link: '#',
       github: '#'
     }
