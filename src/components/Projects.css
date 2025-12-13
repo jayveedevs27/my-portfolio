@@ -95,13 +95,24 @@
 }
 
 .project-image {
-  height: 200px;
+  height: 220px;
   background: linear-gradient(135deg, var(--dark-700), var(--dark-600));
   display: flex;
   align-items: center;
   justify-content: center;
   position: relative;
   overflow: hidden;
+}
+
+.project-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.project-card:hover .project-image img {
+  transform: scale(1.1);
 }
 
 .project-icon {

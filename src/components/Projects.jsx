@@ -24,7 +24,7 @@ const Projects = () => {
       description: 'A full-stack e-commerce solution with payment integration, admin dashboard, and real-time inventory management.',
       technologies: ['React', 'Node.js', 'MongoDB', 'Stripe'],
       category: 'fullstack',
-      icon: Icons.shoppingCart,
+      image: '/images/featured-projects/project-1.png',
       link: '#',
       github: '#'
     },
@@ -33,7 +33,7 @@ const Projects = () => {
       description: 'Collaborative task management tool with real-time updates, team workspaces, and productivity analytics.',
       technologies: ['React', 'Firebase', 'Material-UI'],
       category: 'frontend',
-      icon: Icons.checkSquare,
+      image: '/images/featured-projects/project-2.png',
       link: '#',
       github: '#'
     },
@@ -42,7 +42,7 @@ const Projects = () => {
       description: 'Analytics dashboard for managing multiple social media accounts with insights and scheduling features.',
       technologies: ['Next.js', 'PostgreSQL', 'Chart.js'],
       category: 'fullstack',
-      icon: Icons.barChart,
+      image: '/images/featured-projects/project-3.png',
       link: '#',
       github: '#'
     },
@@ -51,7 +51,7 @@ const Projects = () => {
       description: 'Drag-and-drop website builder for creating professional portfolios with custom themes.',
       technologies: ['React', 'Express', 'MongoDB'],
       category: 'fullstack',
-      icon: Icons.layout,
+      image: '/images/featured-projects/project-5.png',
       link: '#',
       github: '#'
     },
@@ -60,7 +60,7 @@ const Projects = () => {
       description: 'Scalable RESTful API with authentication, rate limiting, and comprehensive documentation.',
       technologies: ['Node.js', 'Express', 'PostgreSQL'],
       category: 'backend',
-      icon: Icons.server,
+      image: '/images/featured-projects/project-6.png',
       link: '#',
       github: '#'
     },
@@ -69,7 +69,16 @@ const Projects = () => {
       description: 'Feature-rich chat application with real-time messaging, file sharing, and video calls.',
       technologies: ['React', 'Socket.io', 'WebRTC'],
       category: 'fullstack',
-      icon: Icons.messageCircle,
+      image: '/images/featured-projects/project-7.png',
+      link: '#',
+      github: '#'
+    },
+    {
+      title: 'AI-Powered Analytics',
+      description: 'Intelligent analytics platform with machine learning insights and predictive data visualization.',
+      technologies: ['Python', 'TensorFlow', 'React'],
+      category: 'fullstack',
+      image: '/images/featured-projects/project-8.png',
       link: '#',
       github: '#'
     }
@@ -145,7 +154,7 @@ const Projects = () => {
                 whileHover={{ y: -10 }}
               >
                 <div className="project-image">
-                  <span className="project-icon">{project.icon}</span>
+                  <img src={project.image} alt={project.title} loading="lazy" />
                   <div className="project-overlay">
                     <a href={project.link} className="overlay-btn">
                       {Icons.externalLink}
