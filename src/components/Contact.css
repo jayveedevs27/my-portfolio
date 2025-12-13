@@ -198,6 +198,7 @@
 .info-item div {
   display: flex;
   flex-direction: column;
+  text-align: left;
 }
 
 .info-label {
@@ -333,6 +334,10 @@
   .info-items {
     width: 100%;
     max-width: 400px;
+  }
+  
+  .info-item {
+    text-align: left;
   }
 
   .social-icons {
