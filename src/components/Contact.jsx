@@ -89,23 +89,23 @@ const Contact = () => {
     
     try {
       // Using Web3Forms API for email delivery
-      const response = await fetch('https://api.web3forms.com/submit', {
-        method: 'POST',
+      const response = await fetch("https://api.web3forms.com/submit", {
+        method: "POST",
         headers: {
-          'Content-Type': 'application/json',
-          'Accept': 'application/json'
+          "Content-Type": "application/json",
+          Accept: "application/json",
         },
         body: JSON.stringify({
-          access_key: '0c8b1a6e-8c7d-4c0e-9b3a-placeholder', // You'll need to get your own key from web3forms.com
-          to: 'jayvee.salango10@gmail.com',
+          access_key: "e196fec3-feee-49ba-9063-37e614819074", // You'll need to get your own key from web3forms.com
+          to: "jayvee.salango10@gmail.com",
           from_name: formData.name,
           subject: `Portfolio Contact: ${formData.subject}`,
           message: `Name: ${formData.name}\nEmail: ${formData.email}\nSubject: ${formData.subject}\n\nMessage:\n${formData.message}`,
           replyto: formData.email,
           // Spam protection
-          botcheck: honeypot
-        })
-      })
+          botcheck: honeypot,
+        }),
+      });
 
       const result = await response.json()
       
