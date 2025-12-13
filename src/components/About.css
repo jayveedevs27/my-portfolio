@@ -52,6 +52,7 @@
   position: relative;
   width: 350px;
   height: 400px;
+  overflow: visible;
 }
 
 .image-border {
@@ -68,6 +69,7 @@
   height: 100%;
   object-fit: cover;
   border-radius: 20px;
+  z-index: 1;
   z-index: 1;
 }
 
@@ -151,6 +153,7 @@
   align-items: center;
   gap: 12px;
   backdrop-filter: blur(10px);
+  z-index: 10;
 }
 
 .exp-number {
@@ -333,6 +336,11 @@
     flex-direction: column;
     text-align: center;
     gap: 12px;
+    align-items: center;
+  }
+  
+  .highlight-icon {
+    margin: 0 auto;
   }
   
   .about-buttons {
