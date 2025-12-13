@@ -27,7 +27,7 @@ const Hero = () => {
     return () => window.removeEventListener('mousemove', handleMouseMove)
   }, [])
 
-  const roles = ["Full Stack Developer", "Web Developer", "Problem Solver", "Tech Enthusiast"]
+  const roles = ["Senior Full Stack Developer", "Senior Web Developer", "Problem Solver", "Tech Enthusiast"]
   const [currentRole, setCurrentRole] = useState(0)
   
   useEffect(() => {
@@ -174,7 +174,7 @@ const Hero = () => {
               animate={{ opacity: 1 }}
               transition={{ duration: 0.6, delay: 0.9 }}
             >
-              📍 Based in Philippines
+              Based in Philippines
             </motion.p>
 
             <motion.div 
